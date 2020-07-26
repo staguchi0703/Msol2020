@@ -22,17 +22,17 @@ class TestClass(unittest.TestCase):
         print('------------')
         self.assertEqual(out, output)
 
-#     def test_入力例_1(self):
-#         input = """7
-# 100 120 130 130 115 115 150"""
-#         output = """1685"""
-#         self.assertIO(input, output)
+    def test_入力例_1(self):
+        input = """7
+100 120 130 130 115 115 150"""
+        output = """1685"""
+        self.assertIO(input, output)
 
-#     def test_入力例_2(self):
-#         input = """6
-# 100 200 200 200 200 200"""
-#         output = """2000"""
-#         self.assertIO(input, output)
+    def test_入力例_2(self):
+        input = """6
+100 200 200 200 200 200"""
+        output = """2000"""
+        self.assertIO(input, output)
 
     def test_入力例_3(self):
         input = """2
